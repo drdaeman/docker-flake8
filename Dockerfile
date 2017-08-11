@@ -1,5 +1,5 @@
 FROM python:3-alpine
-MAINTAINER Aleksei Zhukov <drdaeman@drdaeman.pp.ru>
+LABEL maintainer="Aleksei Zhukov <drdaeman@drdaeman.pp.ru>"
 
 RUN addgroup -S flake8 \
  && adduser -S -D -h /home/flake8 -g flake8 -s /sbin/nologin flake8 \
